@@ -1,0 +1,16 @@
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar pastas de ambiente virtual (se você usar)
+venv/
+.env/
+
+# O MAIS IMPORTANTE: Ignorar as senhas locais
+.streamlit/secrets.toml
+client_secret_*.json
+*.json
+
+# Ignorar arquivos temporários do Python
+__pycache__/
+*.pyc
